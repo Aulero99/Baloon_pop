@@ -9,7 +9,7 @@ let inflationRate = 20;
 let maxSize = 300;
 let popCount = 0;
 let gameLength = 4000;
-let timeRemain = 0;
+let timeRemain = 0; 
 let clockId = 0;
 
 
