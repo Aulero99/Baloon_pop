@@ -1,20 +1,31 @@
 <html lang="en">
     <head>
-        <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1">
-
-        <meta name="description" content="Baloon Pop">
-        <meta name="author" content="webPage">
-      
-        <meta property="og:title" content="Baloon Pop">
-        <meta property="og:type" content="webPage">
-      
-        <title>Baloon Pop</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">      
+        <title>Balloon Pop</title>
         <link rel="stylesheet" href="style.css">
     </head>
 
     <body>
-        <p>Hello Wold</p>
+        <div>
+            <button id="start-button" onclick="startGame()">
+                <span>Start</span>
+            </button>
+            <button id="inflate-button"" onclick="inflate()" disabled="true">
+                Inflate
+                <span id="click-count"></span>
+            </button>
+        </div>
+
+        <div>
+            <span>
+            Balloons Popped
+            </span>
+            <span id="pop-count">0</span>
+        </div>
+
+        <div id="balloon" class="balloon"></div>
     </body>
 
     <footer>
